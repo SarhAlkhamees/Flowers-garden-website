@@ -1,0 +1,97 @@
+/* flowers_garden.CSS */
+* {
+    box-sizing: border-box;
+}
+.logo img {
+	width: 150px;
+	display: block;
+	margin: 0 auto 0 auto;
+} 
+header {
+    background-image: url(image/flowers_garden_header_background.JPG);
+}
+
+/* header menu */
+.menu-bar {
+background: rgb(210,189,248);
+text-align: center;
+}
+.menu-bar ul {
+display: inline-flex;
+list-style: none;
+color: #fff;
+}
+.menu-bar ul li {
+width: 120px;
+margin: 15px;
+padding: 15px;
+}
+.menu-bar ul li a{
+text-decoration: none;
+color: #fff;
+}
+.active,.menu-bar ul li:hover{
+background: #564e73e0;
+border-radius: 3px;
+}
+.menu-bar .fas {
+margin-right: 8px;
+}
+/* header menu end */
+
+body {
+background-color: #f7f0fb;
+}
+details > summary {
+    list-style: none;
+}
+.flowers-description {
+    width: 1209px;
+}
+#Flowers_image {
+    margin: auto;
+    width: fit-content;
+}
+div {
+	margin-top: 20px;
+}
+.title {
+text-align: center;
+font-size: 2.8em;
+color: #564e73;
+}
+.flowers-col{
+ flex-basis: 31%;
+ background: #e0d9ec;
+ border-radius: 10px;
+ margin-bottom: 5%;
+ padding: 20px 12px;
+ box-sizing: border-box;
+ transition: 0.5s;
+}
+.flowers-col:hover{
+box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
+}
+.text {
+text-align: center;
+color: #564e73;
+}
+/* footer */
+footer {
+background-color: #B09CFF;
+margin-top: 0;
+box-sizing: border-box;
+margin-right: 60px;
+}
+.footer-address {
+	font-size: 20px;
+}
+.footer-image{
+text-align: right;
+}
+.footer-text {
+  color: #e0d9ec;
+  position: relative;
+  top: -178px;
+  left: 60px;
+}
