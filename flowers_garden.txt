@@ -1,0 +1,225 @@
+<!--flowers_garden.html-->
+<!DOCTYPE html>
+ <html>
+
+  <head>
+   <meta charset="utf-8">
+   <title>flowers garden</title>
+   <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
+   <style type="text/CSS">
+   /* flowers_garden.CSS */
+* {
+    box-sizing: border-box;
+}
+.logo img {
+	width: 150px;
+	display: block;
+	margin: 0 auto 0 auto;
+} 
+header {
+    background-image: url(image/flowers_garden_header_background.JPG);
+}
+
+/* header menu */
+.menu-bar {
+background: rgb(210,189,248);
+text-align: center;
+}
+.menu-bar ul {
+display: inline-flex;
+list-style: none;
+color: #fff;
+}
+.menu-bar ul li {
+width: 120px;
+margin: 15px;
+padding: 15px;
+}
+.menu-bar ul li a{
+text-decoration: none;
+color: #fff;
+}
+.active,.menu-bar ul li:hover{
+background: #564e73e0;
+border-radius: 3px;
+}
+.menu-bar .fas {
+margin-right: 8px;
+}
+/* header menu end */
+
+body {
+background-color: #f7f0fb;
+}
+details > summary {
+    list-style: none;
+}
+.flowers-description {
+    width: 1209px;
+}
+#Flowers_image {
+    margin: auto;
+    width: fit-content;
+}
+div {
+	margin-top: 20px;
+}
+.title {
+text-align: center;
+font-size: 2.8em;
+color: #564e73;
+}
+.flowers-col{
+ flex-basis: 31%;
+ background: #e0d9ec;
+ border-radius: 10px;
+ margin-bottom: 5%;
+ padding: 20px 12px;
+ box-sizing: border-box;
+ transition: 0.5s;
+}
+.flowers-col:hover{
+box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
+}
+.text {
+text-align: center;
+color: #564e73;
+}
+/* footer */
+footer {
+background-color: #B09CFF;
+margin-top: 0;
+box-sizing: border-box;
+margin-right: 60px;
+}
+.footer-address {
+	font-size: 20px;
+}
+.footer-image{
+text-align: right;
+}
+.footer-text {
+  color: #e0d9ec;
+  position: relative;
+  top: -178px;
+  left: 60px;
+}
+   </style>
+  </head>
+
+  <body>
+      <!--header-->
+   <header>
+    <div class="logo">
+     <img class="image-size" src="image/flowers_garden_logo.PNG" alt="flowers garden logo">
+    </div>
+		
+    <div class="menu-bar">
+     <ul>
+      <li class="active"><a href="#"><i class="fa fa-home"></i> Home</a></li>
+      <li class="active"><a href="#"><i class="fas fa-sign-in-alt"></i></i>Log-in</a></li>
+      <li><a href="#"><i class="fas fa-user"></i> About Us</a></li>
+      <li><a href="#"><i class="fas fa-clone"></i> Services</a></li>
+      <li><a href="#"><i class="fas fa-users"></i> Clients</a></li>
+      <li><a href="#"><i class="fas fa-money-bill-wave"></i> Pricing</a></li>
+      <li><a href="#"><i class="fas fa-phone"></i> Contact</a></li>
+      <li><a href="#"><i class="fas fa-shopping-cart"></i> Cart</a></li>
+     </ul>
+    </div>
+   </header>
+
+   <!--section-->
+   <section id="Flowers_image">
+    <h1 class="title">Most popular flowers</h1>
+
+    <div class="flowers-col">
+     <details><summary><img src="image/Pink_Roses.JPG" alt="Roses image">
+      <h3 class="text">Roses</h3></summary>
+      <p class="flowers-description">Like the flower itself, the history of
+           the rose is very colorful. Roses have been naturally growing for
+            over 35 million years! However, they were not known to be 
+            cultivated until about 5,000 years ago. Their usage began 
+            not just as a decorative touch to one’s home, but they were 
+            also used for medicinal purposes, to make perfumes, and their 
+            petals were even used as confetti for festive occasions. 
+            Getting your roses into water quickly is the first step in 
+            caring for them. Fill a vase ¾ full of fresh, cool tap water. 
+            The roses will absorb the water, soaking up the nutrients that will 
+            travel up to the bloom and create a lively flower. Check the water 
+            level in your rose’s vase every day and add more water as needed. 
+            Shop these classic flowers for Valentine’s Day!</p>
+     </details>
+    </div>
+		
+    <div class="flowers-col">
+     <details><summary><img src="image/sunflower.JPEG" alt="Sunflowers image"> 
+      <h3 class="text">Sunflowers</h3></summary>
+      <p class="flowers-description">Sunflowers are one of the most popular flower 
+          types and are best known for their dazzling yellow color and large size. 
+          Sunflowers generally symbolize adoration, loyalty and longevity in the 
+          language of flowers. Native Americans view sunflowers as a symbol of 
+          harvest and bounty since the flower provides seeds and pigments on top
+           of being visually beautiful. Sunflowers need direct sunlight for 6 
+           to 8 hours per day and require hot conditions to flower well. 
+           Sunflowers also have long roots that require plenty of room to
+            spread out, so soil should be well dug and not too dense for growth.
+             Avoid over fertilization or risk your stems breaking in the fall. </p>
+     </details>
+    </div>
+        
+    <div class="flowers-col">
+     <details><summary><img src="image/Peonies.JPG" alt="Peonies image">
+      <h3 class="text">Peonies</h3></summary>
+      <p class="flowers-description">From white to red, coral, purple, pink, and yellow,
+           peonies can come in a variety of colors! The key to growing a thriving peony 
+           is to make sure you plant at the proper time, plant correctly, and of course, 
+           care for it all throughout the year, even when they aren’t necessarily in season.
+            Since peonies can grow rather tall (sometimes even as tall as five feet!),
+             you’ll need to make sure that the spot you choose is spacious enough. And remember,
+              peonies can come back year after year, so you’ll need to think long term.</p>
+     </details>
+    </div>
+		
+    <div class="flowers-col">
+     <details><summary><img src="image/Gerbera_Daisies.JPG" alt="Gerbera image"> 
+      <h3 class="text">Gerbera</h3></summary>
+      <p class="flowers-description">The fifth most popular flower in the world, 
+          the Gerbera Daisy comes in a full rainbow of colors, including pink, orange, 
+          yellow and red. The Gerbera was discovered in 1884 in South Africa then it 
+          was brought to England, where breeders grew a variety of Gerberas that boasted
+           brighter colors and sturdier quality. The popularity of Gerberas slowly spread
+            to the Netherlands, which became one of the biggest Gerbera daisy distributors
+             in the world—a title it still holds today. Its vibrant petals make it the 
+             flower of choice for celebrating every happy occasion, from birthdays to weddings.</p>
+     </details>
+    </div>
+		
+    <div class="flowers-col">
+     <details><summary><img src="image/Daisies.JPG" alt="Daisies image">
+      <h3 class="text">Daisies</h3></summary>
+      <p class="flowers-description">Daisies are found on every continent other
+           than Antarctica and belong to one of the largest known plant families. 
+           Daisies symbolized innocence, a connotation that comes from the Victorian 
+           era. Based on what color the daisy is, the flower can take on another meaning.
+            Daisy flowers prefer full sun and average soil conditions. Depending on the 
+            variation, they can grow to anywhere between 8 inches to 4 feet. Care tip: 
+            only water during the summer only if rainfall is less than 1 inch per week.</p>
+     </details>
+    </div>
+   </section>
+
+   <!--footer-->
+   <footer>
+    <figure class="footer-image">
+     <img src="image/flowers_garden_logo.PNG" alt="flowers garden logo">
+    </figure>
+    <address class="footer-text">
+     <p><strong class="footer-address">Contact us:</strong><br>
+     <strong class="">Twitter:</strong> @flowers_garden<br>
+     <strong>Instagram:</strong> @flowers_garden <br>
+     <strong>Phone number:</strong> xxxxxxxxxx</p>
+    </address>
+   </footer>
+  </body>
+ </html>
+
